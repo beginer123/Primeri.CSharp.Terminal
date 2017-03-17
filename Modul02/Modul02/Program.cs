@@ -25,6 +25,30 @@ namespace Modul02
 
 			Console.WriteLine(sum);
 
+			//Допълнителни оператори
+			Console.WriteLine("\n Използване на + =");
+			a += b;
+			Console.WriteLine(a);
+
+			Console.WriteLine("\n Използване на - =");
+			a -= b;
+			Console.WriteLine(a);
+
+
+			Console.WriteLine("\n Използване на + +");
+			a ++;
+			Console.WriteLine(a);
+
+			Console.WriteLine("\n Използване на *");
+			a *= b;
+			Console.WriteLine(a);
+
+			Console.WriteLine("Staqndartno delene: " + (7 / 4));
+			Console.WriteLine("Ostatyk delene: " + (7 % 4));
+
+			                  
+
+
 
 		}
 	}
